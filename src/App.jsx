@@ -1,13 +1,12 @@
 // import { useState } from 'react'
 import './App.css'
-import Home from './Components/Home'
-import Signup from './Components/Signup'
-import Login from './Components/Login'
-import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import Home from './components/Home'
+import Signup from './components/Signup'
+import Login from './components/Login'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
  
-
   return (
     <div>
 
@@ -16,8 +15,8 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Signup/>} />
-        <Route path='/login' element={<Login/>} />
-        <Route path='/home' element={<Home/>} />
+        <Route path='/Login' element={<Login/>} />
+        <Route path='/Home' element={<Home/>} />
 
       </Routes>
 
